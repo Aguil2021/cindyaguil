@@ -1,0 +1,75 @@
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+p {
+    color:darkgreen;
+}
+
+h1 {
+    color:aqua;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; 
+}
+h4{
+    color: rgb(110, 225, 229);
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;}
+
+label {
+    margin: 5px 0;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+h4{
+    color: rgb(180, 251, 251);
+}
+
+h2 {
+    color: rgb(10, 10, 10);
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+ol {
+    list-style-type: lower-roman;
+}
+ul {
+    list-style-type: square;
+}
